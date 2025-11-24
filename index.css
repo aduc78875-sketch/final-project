@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.breadcrumb {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #555;
+}
+.breadcrumb a {
+    color: #4a8ef5;
+    text-decoration: none;
+}
+
+.main-section {
+    display: flex;
+    gap: 40px;
+}
+
+/* LEFT CONTENT */
+.left {
+    flex: 2;
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.rating {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #444;
+}
+.rating span.count {
+    color: #f38e00;
+}
+
+.creator, .languages {
+    margin-bottom: 15px;
+    color: #555;
+}
+.creator a {
+    color: #4a8ef5;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin: 25px 0;
+}
+.tabs button {
+    padding: 10px 20px;
+    background: #f5f5f5;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.tabs .active {
+    background: #4a8ef5;
+    color: white;
+}
+
+/* Instructor box */
+.instructor-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+}
+.instructor-box img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+/* SIDEBAR */
+.sidebar {
+    flex: 1;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    border-radius: 12px;
+    height: fit-content;
+}
+
+.course-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    margin: 15px 0;
+}
+.sale-price {
+    font-size: 28px;
+    font-weight: bold;
+}
+.old-price {
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: #888;
+}
+.discount {
+    color: #28a745;
+    margin-left: 10px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.primary {
+    background: black;
+    color: white;
+    border: none;
+}
+.outline {
+    background: white;
+    border: 2px solid black;
+}
+
+.share {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.social button {
+    background: #f5f5f5;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}

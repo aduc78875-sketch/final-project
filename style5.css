@@ -1,0 +1,421 @@
+.container{
+    width: 1550px;
+height: 65px;
+ display: flex;
+ gap: 50px;
+    margin-left: 100px;
+}
+.img-content{
+    display: flex;
+
+}
+#img-1{
+    width: 31px;
+    height: 40px;
+}
+.table{
+    width: 662px;
+    height: 30px;
+    border-radius: 10px;
+    border : 2px solid #334155 ;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+#search{
+    width: 20px;
+    height: 20px;
+}
+.hearder{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.hearder p{
+    color: #334155;
+}
+.ion p {
+    width: 110px;
+height: 20px;
+}
+.traitim img{
+    width: 20px;
+    height: 18px;
+    margin-top: 15px;
+}
+.shoppe img{
+    width: 24px;
+    height: 24px;
+margin-top: 10px;
+}
+.chuongbao img{
+    width: 17px;
+    height: 20px;
+    margin-top: 15px;
+}
+.giaodien{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #64748B;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex
+
+}
+.ngang1{
+    width: 1550px;
+    border: 1px solid #E2E8F0;
+}
+.Design{
+    
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.all{
+    margin-left: 80px;
+}
+.fill{
+    display: flex;
+}
+
+.filler{
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+#btn{
+    width: 100px;
+height: 35px;
+opacity: 1;
+gap: 6px;
+border-radius: 8px;
+border-width: 1px;
+padding-top: 10px;
+padding-right: 24px;
+padding-bottom: 10px;
+padding-left: 24px;
+
+}
+#img22{
+    width: 15px;
+    height: 10px;
+}
+.sort{
+    display:flex;
+    gap:12px;
+    align-items:center;
+    margin-left: 980px;
+  }
+  .sort select{
+    padding:8px 12px;border-radius:10px;border:1px solid var(--border);background:#fff;
+  }
+  .sidebar {
+    width: 250px;
+    padding: 0 10px;
+    font-family: Arial, sans-serif;
+    margin-left: 80px;
+    margin-top: 24px;
+}
+
+.filter-section {
+    border-bottom: 1px solid #eee;
+    padding: 12px 0;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.arrow {
+    font-size: 12px;
+    transform: rotate(180deg); /* hướng lên */
+    opacity: 0.6;
+}
+
+.filter-body {
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.stars {
+    color: #f5a623;
+    font-size: 18px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 6px 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+}
+
+.see-more {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 13px;
+    color: #3b82f6;
+    text-decoration: none;
+    cursor: pointer;
+}
+.layer{
+     width: 290px;
+    height: 340px;
+    border: 2px solid #E2E8F0;
+    border-radius: 20px;
+    gap: 10px;
+    display: flex;
+    
+
+    
+}
+.layer1{
+    width: 290px;
+    height: 340px;
+    border: 2px solid #E2E8F0;
+    border-radius: 20px;
+    gap: 10px;
+    display: flex;
+    margin-left: 30px;
+}
+.play1{
+    width: 266px;
+height: 306px;
+gap: 16px;
+margin: 16px 16px;
+opacity: 1;
+
+
+}
+.play1 h3{
+    margin: 12px 0px;
+}
+#cofe{
+    width: 260px;
+height: 139px;
+opacity: 1;
+border-radius: 8px;
+
+}
+#star {
+width: 100px;
+height: 20px;
+opacity: 1;
+
+}
+.gift{
+    width: 250px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.play1 h1{
+    margin: 10px 0px;
+}
+.play1 p{
+    margin: 10px 0px;
+}
+.Top-Categories{
+    margin-left: 450px;
+    margin-top: 20px;
+}
+.top-notch{
+    margin-top: -450px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    background: #f9fbff;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #e6eaf0;
+    width: fit-content;
+    margin-left: 820px;
+    margin-top: 20px;
+}
+
+.page-btn {
+    width: 40px;
+    height: 34px;
+    border: 1px solid #e6eaf0;
+    background: white;
+    cursor: pointer;
+    font-size: 14px;
+    color: #444;
+    border-right: none;
+}
+
+
+
+.page-btn:last-child {
+    border-right: 1px solid #e6eaf0;
+}
+
+.page-btn.active {
+    font-weight: bold;
+    color: #1d4ed8;
+    
+}
+.Top-Categories1{
+
+ width: 1280px;
+height: 350px;
+margin:  150px 159px ;
+margin-top: -10px;
+margin-left: 130px;
+
+}
+.Top{
+    display: flex;
+    justify-content: space-between;
+}
+.school{
+     width: 212px;
+    height: 281px;
+    border: 2px solid #E2E8F0;
+    border-radius: 20px;
+    gap: 10px;
+    display: flex;
+}
+.school1{
+     width: 212px;
+    height: 281px;
+    border: 2px solid #E2E8F0;
+    border-radius: 20px;
+    gap: 10px;
+    display: flex;
+    margin-left: 40px;
+}
+.student{
+    width: 180px;
+height: 249px;
+gap: 16px;
+opacity: 1;
+margin: 16px 16px;
+
+}
+#teacher{
+    width: 177px;
+height: 132px;
+opacity: 1;
+border-radius: 8px;
+object-fit:cover;
+object-position:center top; 
+
+}
+.student h1{
+    font-size: 18px;
+    margin:16px 19.5px;
+}
+.student p{
+    font-size: 14px;
+    margin: -10px 39px;
+}
+.ngang{
+
+    border: none !important;
+display:flex ;
+margin-top: 35px;
+margin-left: 10px;
+gap: 5px;
+align-items: center;
+}
+.ngang p{
+    width: 87px;
+    height: 15px;
+    font-size: 12px;
+    margin: 0px 0px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+#star1{
+    width: 20px;
+    height: 20px;
+  
+    
+}
+.ngang span{
+    margin-top: 5px;
+    border: none !important;
+}
+.Top-Categories2{
+    margin-left: 120px;
+}
+.Byway{
+    width: 1600px;
+height: 400px;
+opacity: 1;
+background-color: #1E293B;
+color: white;
+margin-top: 120px;
+margin-left: -150px;
+}
+.Programs{
+    width: 1280px;
+height: 183px;
+opacity: 1;
+display: flex;
+justify-content: space-between;
+}
+
+.education img{
+   width: 111px;
+height: 40px;
+margin-top: 80px;
+margin-left: 90px;
+}
+.education p{
+    font-size: 30px;
+}
+.Empowering{
+    width: 416px;
+height: 105px;
+opacity: 1;
+color: #CBD5E1;
+margin-top: 50px;
+margin-left: 90px;
+Font:Inter;
+
+}
+.Empowering p{
+    font-size: 16px;
+}
+.Get-help{
+    margin-top: 80px;
+}
+.Design{
+    margin-top: 80px;
+}
+.contact-us{
+    margin-top: 80px;
+}
+.contact-us img{
+    width: 296px;
+height: 40px;
+opacity: 1;
+
+}
+
+
+
+
+
