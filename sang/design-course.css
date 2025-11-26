@@ -227,6 +227,10 @@ input[type="checkbox"] {
     display: flex;
     margin-left: 30px;
 }
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
 .play1{
     width: 266px;
 height: 306px;
