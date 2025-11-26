@@ -2,6 +2,7 @@ const logo = document.querySelector('.navbar1')
     logo.addEventListener('click', function() {
         location.reload();
 })
+
 const userAvatar = document.getElementById('userAvatar');
 const dropdownMenu = document.getElementById('dropdownMenu');
 const btnProfile = document.getElementById('btnProfile');
@@ -37,33 +38,3 @@ document.addEventListener('keydown', function(e) {
     }
 }); 
 
-// ========== 3. TÌM KIẾM GIÁO VIÊN ==========
-const searchBox = document.querySelector('.search-box2');
-const teacherCards = document.querySelectorAll('.teacher-card');
-
-searchBox.addEventListener('input', function(e) {
-    const searchText = e.target.value.toLowerCase();
-    
-    teacherCards.forEach(function(card) {
-        const teacherName = card.querySelector('.teacher-name').textContent.toLowerCase();
-        
-        if (teacherName.includes(searchText)) {
-            card.style.display = 'flex';
-        } else {
-            card.style.display = 'none';
-        }
-    });
-});
-
-// ========== 4. GỬI TIN NHẮN ==========
-const sendMessageBtns = document.querySelectorAll('.send-message-btn');
-
-sendMessageBtns.forEach(function(btn) {
-    btn.addEventListener('click', function() {
-        const teacherCard = btn.closest('.teacher-card');
-        const teacherName = teacherCard.querySelector('.teacher-name').textContent;
-        
-        // Chuyển đến trang messages
-        window.location.href = `pp2.html?teacher=${teacherName}`;
-    });
-});

@@ -323,8 +323,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     position: relative;
-    top: 20px;
-    
+    top: 20px; 
 }
 .course-card{
     width: 265px;
@@ -815,8 +814,3 @@
     position: relative;
     top: 35px;
 }
-
-
-
-
-
