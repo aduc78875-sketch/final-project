@@ -1,0 +1,535 @@
+.container{
+    width: 1550px;
+height: 65px;
+ display: flex;
+ gap: 50px;
+    margin-left: 100px;
+}
+.img-content{
+    display: flex;
+
+}
+#img-1{
+    width: 31px;
+    height: 40px;
+}
+.table{
+    width: 662px;
+    height: 30px;
+    border-radius: 10px;
+    border : 2px solid #334155 ;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+#search{
+    width: 20px;
+    height: 20px;
+}
+.hearder{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.hearder p{
+    color: #334155;
+}
+.ion p {
+    width: 110px;
+height: 20px;
+}
+.traitim img{
+    width: 20px;
+    height: 18px;
+    margin-top: 15px;
+}
+.shoppe img{
+    width: 24px;
+    height: 24px;
+margin-top: 10px;
+}
+.chuongbao img{
+    width: 17px;
+    height: 20px;
+    margin-top: 15px;
+}
+.giaodien{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #64748B;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex
+
+}
+.giaodien {
+    position: relative;
+    cursor: pointer;
+}
+
+.logout-menu {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 100;
+}
+
+.logout-menu p {
+    margin: 0;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.logout-menu p:hover {
+    color: red;
+}
+
+.shopping{
+    width: 536px;
+height: 42px;
+gap: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+margin-left: 80px;
+}
+#cart{
+    color: #2563EB;
+}
+.main{
+    width: 840px;
+height: 650px;
+margin-top: 60px;
+margin-left: 80px;
+border-radius: 16px;
+border:2px solid #E2E8F0;
+}
+#country{
+    width: 200px;
+    height: 30px;
+     border: 1px solid white;
+     justify-content: center;
+}
+#state{
+     width: 200px;
+    height: 30px;
+    border: 1px solid white;
+    justify-content: center;
+    
+}
+.card input{
+ width: 200px;
+    height: 30px;
+    border: 1px solid white;
+    justify-content: center;
+    margin-top: -20px;
+}
+#number{
+     width: 200px;
+    height: 30px;
+    border: 1px solid white;
+    margin-top: -50px;
+}
+#Expiry{
+    width: 200px;
+    height: 30px;
+    margin-left: 30px;
+}
+#cvv{
+     width: 200px;
+    height: 30px;
+    margin-left: 160px;
+}
+.city{
+    width: 797px;
+height: 95px;
+margin-left: 31px;
+
+}
+.country{
+display: flex;
+gap: 336px;
+}
+.Enter{
+    width: 350px;
+height: 30px;
+border-radius: 8px;
+border-width: 1px;
+opacity: 1;
+gap: 5px;
+padding: 10px;
+border: 1px solid #E2E8F0;
+
+}
+.Enter p{
+    color: #94A3B8;
+   align-items: center;
+   margin-top: 6px;
+
+}
+.Enter1{
+    width: 350px;
+height: 30px;
+border-radius: 8px;
+border-width: 1px;
+opacity: 1;
+gap: 5px;
+padding: 10px;
+border: 1px solid #E2E8F0;
+
+}
+.Enter1 p{
+    color: #94A3B8;
+   align-items: center;
+   margin-top: 6px;
+
+}
+.tieude{
+    display: flex;
+    gap: 30px;
+}
+.payment{
+    width: 812px;
+height: 479px;
+opacity: 1;
+gap: 8px;
+margin-left: 30px;
+margin-top: 40px;
+}
+.credit{
+    width: 812px;
+height: 380px;
+opacity: 1;
+ background-color:#F8FAFC;
+ margin-left: -15px;
+ border-radius: 10px;
+ margin-top: 10px;
+
+}
+.visa{
+    width: 784.5px;
+height: 29px;
+    display: flex; 
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+}
+#check{
+    width: 24px;
+    height: 24px;
+    
+}
+#visa{
+    width: 72.5px;
+height: 28.5px;
+margin-left: 523px;
+}
+.name{
+    width: 776px;
+height: 87px;
+margin-top: 50px;
+margin-left: 30px;
+position: absolute;
+}
+.card{
+    width: 700px;
+height: 20px;
+border-radius: 8px;
+border-width: 1px;
+opacity: 1;
+gap: 8px;
+padding: 16px;
+border: 1px solid #E2E8F0;
+ justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.card p{
+    color: #94A3B8;
+    margin-top: 7px;
+    }
+.name1{
+    width: 776px;
+height: 87px;
+margin-top: 160px;
+margin-left: 30px;
+position: absolute;
+}
+.card1{
+    width: 700px;
+height: 20px;
+border-radius: 8px;
+border-width: 1px;
+opacity: 1;
+gap: 8px;
+padding: 16px;
+border: 1px solid #E2E8F0;
+ 
+}
+.card1 p{
+    color: #94A3B8;
+    margin-top: 7px;
+    }
+    .text {
+        display: flex;
+        margin-left: 30px;
+    }
+    .text p{
+        margin-top: 280px;
+
+    }
+    #cvc{
+        margin-left: 300px;
+    }
+    .country1{
+        display: flex;
+        gap: 10px;
+    }
+    .date{
+        width: 300px;
+height: 20px;
+border-radius: 8px;
+border-width: 1px;
+opacity: 1;
+gap: 8px;
+padding: 16px;
+border: 1px solid#E2E8F0;
+margin-left: 30px;
+    }
+    .date p {
+        color: #94A3B8;
+        margin-top: 1px;
+    }
+    .date1{
+          width: 330px;
+height: 20px;
+border-radius: 8px;
+border-width: 1px;
+opacity: 1;
+gap: 8px;
+padding: 16px;
+border: 1px solid#E2E8F0;
+margin-left: 30px;
+    }
+    .date1 p {
+        color: #94A3B8;
+        margin-top: 1px;
+    }
+    .paypau{
+        width: 808px;
+height: 56px;
+opacity: 1;
+background-color: #F8FAFC;
+border-radius: 10px;
+margin-top: 20px;
+margin-left: -10px;
+display: flex;
+
+    }
+    .simple{
+        width: 779.5px;
+height: 29px;
+display: flex;
+align-items: center;
+margin-top: 15px;
+margin-left: 16px;
+    }
+    .simple h3 {
+        margin-left: 10px;
+    }
+    .simple img{
+        width: 72.5px;
+height: 28.5px;
+opacity: 1;
+margin-left: 600px;
+
+    }
+    .circle{
+        width: 18px;
+        height: 18px;
+        border-radius: 100px;
+        border: 3px solid #94A3B8;
+        
+    }
+    .details{
+        width: 400px;
+height: 566px;
+margin-left: 1000px;
+margin-top: -680px;
+
+
+    }
+    .design{
+        width: 400px;
+height: 163px;
+border-radius: 8px;
+border-width: 1px;
+opacity: 1;
+background-color: #E2E8F0;
+display: flex;
+
+    }
+    .design img{
+        width: 131px;
+height: 131px;
+margin-top: 16px;
+margin-left: 16px;
+border-radius: 4px;
+opacity: 1;
+    }
+.users{
+    width: 229px;
+height: 137px;
+
+margin-left: 13px;
+opacity: 1;
+gap: 4px;
+line-height: 13px;
+}
+#design{
+    color: #2563EB
+}
+#total{
+    color: #334155;
+}
+.apply{
+    width: 400px;
+height: 48px;
+border-radius: 8px;
+border-width: 1px;
+opacity: 1;
+background-color: #E2E8F0;
+margin-top: 16px;
+display: flex;
+align-items: center;
+}
+.apply img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin-left: 12px;
+}
+.apply p{
+    margin-left: 40px;
+}
+.oder2{
+    width: 400px;
+height: 213px;
+border-width: 1px;
+opacity: 1;
+border-radius: 8px;
+background-color: #E2E8F0;
+}
+.oder3{
+    width: 400px;
+height: 29px;
+margin-top: 16px;
+margin-left: 16px;
+display:flex ;
+gap: 280px;
+}
+.oder4{
+      width: 400px;
+height: 29px;
+margin-top: 16px;
+margin-left: 16px;
+display:flex ;
+gap: 250px;
+}
+.oder5{
+    width: 400px;
+height: 29px;
+margin-top: 16px;
+margin-left: 16px;
+display:flex ;
+gap: 290px;
+}
+.oder6{
+     width: 400px;
+height: 29px;
+margin-top: 16px;
+margin-left: 16px;
+display:flex ;
+gap: 230px;
+font-size: 20px;
+font-style: Semi Bold;
+}
+#btn{
+    width: 400px;
+height: 48px;
+border-radius: 8px;
+opacity: 1;
+gap: 6px;
+padding-top: 10px;
+padding-right: 24px;
+padding-bottom: 10px;
+padding-left: 24px;
+
+    background-color: #020617;
+    color: white;
+    margin-top: 16px;
+}
+.Byway{
+    width: 1600px;
+height: 400px;
+opacity: 1;
+background-color: #1E293B;
+color: white;
+margin-top: 120px;
+}
+.Programs{
+    width: 1280px;
+height: 183px;
+opacity: 1;
+display: flex;
+justify-content: space-between;
+}
+
+.education img{
+   width: 111px;
+height: 40px;
+margin-top: 80px;
+margin-left: 90px;
+}
+.education p{
+    font-size: 30px;
+}
+.Empowering{
+    width: 416px;
+height: 105px;
+opacity: 1;
+color: #CBD5E1;
+margin-top: 50px;
+margin-left: 90px;
+Font:Inter;
+
+}
+.Empowering p{
+    font-size: 16px;
+}
+.Get-help{
+    margin-top: 80px;
+}
+.Design{
+    margin-top: 80px;
+}
+.contact-us{
+    margin-top: 80px;
+}
+.contact-us img{
+    width: 296px;
+height: 40px;
+opacity: 1;
+
+}
+
