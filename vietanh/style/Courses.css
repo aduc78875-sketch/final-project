@@ -185,11 +185,13 @@
     background-color: #FEF2F2;
     color: #DC2626;
 }
-
 .dropdown-divider {
     height: 1px;
     background-color: #E5E7EB;
     margin: 4px 0;
+}
+.dropdown-menu a {
+    text-decoration: none;
 }
 .center{
     position: relative;

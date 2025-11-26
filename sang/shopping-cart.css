@@ -134,14 +134,21 @@ opacity: 1;
     margin-left: 80px;
     width: 880px;
 height: 140px;
-
-
-
 }
 .User{
       line-height: 5px;
       margin-top: -12px;
       margin-left: 8px;
+}
+a {
+    text-decoration: none !important;
+}
+a * {
+    text-decoration: none !important;
+}
+a h1 {
+    text-decoration: none !important;
+    color: black;
 }
 .katy{
     align-items: center;

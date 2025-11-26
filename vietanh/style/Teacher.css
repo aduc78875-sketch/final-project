@@ -186,6 +186,9 @@
     background-color: #E5E7EB;
     margin: 4px 0;
 }
+.dropdown-menu a {
+    text-decoration: none;
+}
 .center{
     position: relative;
     width: 1440px;
