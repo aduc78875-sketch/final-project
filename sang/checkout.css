@@ -64,6 +64,34 @@ margin-top: 10px;
     display: flex
 
 }
+.giaodien {
+    position: relative;
+    cursor: pointer;
+}
+
+.logout-menu {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 100;
+}
+
+.logout-menu p {
+    margin: 0;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.logout-menu p:hover {
+    color: red;
+}
+
 .shopping{
     width: 536px;
 height: 42px;
@@ -84,6 +112,42 @@ margin-top: 60px;
 margin-left: 80px;
 border-radius: 16px;
 border:2px solid #E2E8F0;
+}
+#country{
+    width: 200px;
+    height: 30px;
+     border: 1px solid white;
+     justify-content: center;
+}
+#state{
+     width: 200px;
+    height: 30px;
+    border: 1px solid white;
+    justify-content: center;
+    
+}
+.card input{
+ width: 200px;
+    height: 30px;
+    border: 1px solid white;
+    justify-content: center;
+    margin-top: -20px;
+}
+#number{
+     width: 200px;
+    height: 30px;
+    border: 1px solid white;
+    margin-top: -50px;
+}
+#Expiry{
+    width: 200px;
+    height: 30px;
+    margin-left: 30px;
+}
+#cvv{
+     width: 200px;
+    height: 30px;
+    margin-left: 160px;
 }
 .city{
     width: 797px;

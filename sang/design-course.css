@@ -64,6 +64,39 @@ margin-top: 10px;
     display: flex
 
 }
+.giaodien {
+    position: relative;
+    cursor: pointer;
+}
+#searchInput{
+    height: 20px;
+    width: 590px;
+    border: 1px solid white;
+}
+
+.logout-menu {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 100;
+}
+
+.logout-menu p {
+    margin: 0;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.logout-menu p:hover {
+    color: red;
+}
+
 .ngang1{
     width: 1550px;
     border: 1px solid #E2E8F0;

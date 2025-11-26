@@ -53,6 +53,33 @@ margin-top: 10px;
     height: 20px;
     margin-top: 15px;
 }
+.giaodien {
+    position: relative;
+    cursor: pointer;
+}
+
+.logout-menu {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 100;
+}
+
+.logout-menu p {
+    margin: 0;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.logout-menu p:hover {
+    color: red;
+}
 .giaodien{
     width: 40px;
     height: 40px;
