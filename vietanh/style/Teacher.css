@@ -246,7 +246,7 @@
 .bottom-under{
     position: relative;
     width: 950px;
-    height: 400px;
+    min-height: 400px;
     top: 45px;
     left: 335px;
     gap: 0px;
@@ -442,8 +442,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 40px;
+    position: absolute; 
+    bottom: -40px; 
+    left: 0;
     margin-top: auto;
 }
 .in-menu{
