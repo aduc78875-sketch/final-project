@@ -37,4 +37,22 @@ document.addEventListener('keydown', function(e) {
         dropdownMenu.classList.remove('active');
     }
 }); 
-
+// ĐỔI MÀU TRÁI TIM
+document.addEventListener('DOMContentLoaded', function() {
+    const heartIcon = document.getElementById('heartIcon');
+    
+    if (heartIcon) {
+        heartIcon.addEventListener('click', function() {
+            // Toggle active class (đổi màu đỏ)
+            this.classList.toggle('active');
+            
+            // Thêm animation heartBeat
+            this.classList.add('animating');
+            
+            // Xóa animation sau 300ms
+            setTimeout(() => {
+                this.classList.remove('animating');
+            }, 300);
+        });
+    }
+});

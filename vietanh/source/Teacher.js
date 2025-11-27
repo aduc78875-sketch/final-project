@@ -76,3 +76,22 @@ sendMessageBtnss.forEach(btn => {
         window.location.href = 'Message.html';
     });
 });
+// ĐỔI MÀU TRÁI TIM
+document.addEventListener('DOMContentLoaded', function() {
+    const heartIcon = document.getElementById('heartIcon');
+    
+    if (heartIcon) {
+        heartIcon.addEventListener('click', function() {
+            // Toggle active class (đổi màu đỏ)
+            this.classList.toggle('active');
+            
+            // Thêm animation heartBeat
+            this.classList.add('animating');
+            
+            // Xóa animation sau 300ms
+            setTimeout(() => {
+                this.classList.remove('animating');
+            }, 300);
+        });
+    }
+});

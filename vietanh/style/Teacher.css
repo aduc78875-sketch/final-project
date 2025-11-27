@@ -98,9 +98,54 @@
     left: 1180px;
     gap: 5px;
 }
-.anh3{
-    width: 50px;
-    height: 40px;
+.heart-icon {
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 1px;
+}
+
+.heart-icon:hover {
+    transform: scale(1.1);
+}
+
+.heart-icon svg {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+.heart-icon svg path {
+    fill: none;
+    stroke: #64748b;
+    stroke-width: 2;
+    transition: all 0.3s ease;
+}
+.heart-icon.active svg path {
+    fill: #ff4757;
+    stroke: #ff4757;
+}
+@keyframes heartBeat {
+    0%, 100% { 
+        transform: scale(1); 
+    }
+    25% { 
+        transform: scale(1.2); 
+    }
+    50% { 
+        transform: scale(0.95); 
+    }
+    75% { 
+        transform: scale(1.1); 
+    }
+}
+
+.heart-icon.animating {
+    animation: heartBeat 0.3s ease;
 }
 .anh4{
     position: relative;
